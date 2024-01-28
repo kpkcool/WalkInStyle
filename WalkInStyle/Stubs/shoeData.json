@@ -1,0 +1,241 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "name": "All",
+      "isSelected": false
+    },
+    {
+      "id": 2,
+      "name": "Running",
+      "isSelected": false
+    },
+    {
+      "id": 3,
+      "name": "Walking",
+      "isSelected": false
+    },
+    {
+      "id": 4,
+      "name": "Sports",
+      "isSelected": false
+    },
+    {
+      "id": 5,
+      "name": "Casual",
+      "isSelected": false
+    },
+    {
+      "id": 6,
+      "name": "Formal",
+      "isSelected": false
+    },
+    {
+      "id": 7,
+      "name": "Sneakers",
+      "isSelected": false
+    },
+    {
+      "id": 8,
+      "name": "Sandals",
+      "isSelected": false
+    },
+    {
+      "id": 9,
+      "name": "Boots",
+      "isSelected": false
+    },
+    {
+      "id": 10,
+      "name": "Outdoor",
+      "isSelected": false
+    },
+    {
+      "id": 11,
+      "name": "Slippers",
+      "isSelected": false
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "Nike Air Max",
+      "brand": "Nike",
+      "rating": "4.8",
+      "price": "₹ 3200",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 2,
+      "name": "Adidas Ultraboost",
+      "brand": "Adidas",
+      "rating": "4.5",
+      "price": "₹ 2800",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 3,
+      "name": "New Balance 990",
+      "brand": "New Balance",
+      "rating": "4.7",
+      "price": "₹ 3000",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 4,
+      "name": "Puma Ignite",
+      "brand": "Puma",
+      "rating": "4.3",
+      "price": "₹ 2500",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 5,
+      "name": "Reebok Classic Leather",
+      "brand": "Reebok",
+      "rating": "4.6",
+      "price": "₹ 2700",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 6,
+      "name": "Vans Old Skool",
+      "brand": "Vans",
+      "rating": "4.4",
+      "price": "₹ 2300",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 7,
+      "name": "Converse Chuck Taylor",
+      "brand": "Converse",
+      "rating": "4.5",
+      "price": "₹ 2200",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 8,
+      "name": "Sketchers Go Walk",
+      "brand": "Sketchers",
+      "rating": "4.2",
+      "price": "₹ 2000",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 9,
+      "name": "Under Armour HOVR",
+      "brand": "Under Armour",
+      "rating": "4.7",
+      "price": "₹ 3400",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 10,
+      "name": "Salomon Speedcross",
+      "brand": "Salomon",
+      "rating": "4.9",
+      "price": "₹ 3600",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 11,
+      "name": "Merrell Moab",
+      "brand": "Merrell",
+      "rating": "4.6",
+      "price": "₹ 3100",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 12,
+      "name": "Columbia Newton Ridge",
+      "brand": "Columbia",
+      "rating": "4.4",
+      "price": "₹ 2900",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 13,
+      "name": "Timberland Classic",
+      "brand": "Timberland",
+      "rating": "4.8",
+      "price": "₹ 3800",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 14,
+      "name": "Keen Targhee II",
+      "brand": "Keen",
+      "rating": "4.5",
+      "price": "₹ 3200",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 15,
+      "name": "Ecco Biom Venture",
+      "brand": "Ecco",
+      "rating": "4.7",
+      "price": "₹ 3300",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 16,
+      "name": "Clarks Desert Boot",
+      "brand": "Clarks",
+      "rating": "4.3",
+      "price": "₹ 2700",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 17,
+      "name": "Asics Gel-Kayano",
+      "brand": "Asics",
+      "rating": "4.6",
+      "price": "₹ 3000",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 18,
+      "name": "Mizuno Wave Rider",
+      "brand": "Mizuno",
+      "rating": "4.4",
+      "price": "₹ 2800",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 19,
+      "name": "Brooks Ghost",
+      "brand": "Brooks",
+      "rating": "4.5",
+      "price": "₹ 2900",
+      "imageUrl": "",
+      "wishlist": false
+    },
+    {
+      "id": 20,
+      "name": "Fila Disruptor",
+      "brand": "Fila",
+      "rating": "4.2",
+      "price": "₹ 2400",
+      "imageUrl": "",
+      "wishlist": false
+    }
+  ]
+}

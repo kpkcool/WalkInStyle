@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		369918182B6561CB0060DF94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369918172B6561CB0060DF94 /* AppDelegate.swift */; };
 		3699181A2B6561CB0060DF94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369918192B6561CB0060DF94 /* SceneDelegate.swift */; };
-		3699181C2B6561CB0060DF94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699181B2B6561CB0060DF94 /* ViewController.swift */; };
+		3699181C2B6561CB0060DF94 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699181B2B6561CB0060DF94 /* HomeViewController.swift */; };
 		3699181F2B6561CB0060DF94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3699181D2B6561CB0060DF94 /* Main.storyboard */; };
 		369918212B6561D20060DF94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 369918202B6561D20060DF94 /* Assets.xcassets */; };
 		369918242B6561D20060DF94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369918222B6561D20060DF94 /* LaunchScreen.storyboard */; };
+		3699182C2B6565170060DF94 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699182B2B6565170060DF94 /* UIView+Extensions.swift */; };
+		3699182E2B65661D0060DF94 /* TopCategoryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699182D2B65661D0060DF94 /* TopCategoryCollectionCell.swift */; };
+		369918302B656C590060DF94 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699182F2B656C590060DF94 /* UIColor+Extensions.swift */; };
+		369918332B65701A0060DF94 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369918322B65701A0060DF94 /* ItemCollectionViewCell.swift */; };
+		369918382B6627570060DF94 /* ShoeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369918372B6627570060DF94 /* ShoeModel.swift */; };
+		3699183E2B6627F60060DF94 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699183D2B6627F60060DF94 /* JSONLoader.swift */; };
+		369918402B6629A60060DF94 /* shoeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3699183F2B6629A60060DF94 /* shoeData.json */; };
+		369918432B6633190060DF94 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 369918422B6633190060DF94 /* SDWebImage */; };
+		369918452B6633190060DF94 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 369918442B6633190060DF94 /* SDWebImageMapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		369918142B6561CB0060DF94 /* WalkInStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkInStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		369918172B6561CB0060DF94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		369918192B6561CB0060DF94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3699181B2B6561CB0060DF94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3699181B2B6561CB0060DF94 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3699181E2B6561CB0060DF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		369918202B6561D20060DF94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		369918232B6561D20060DF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		369918252B6561D20060DF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3699182B2B6565170060DF94 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		3699182D2B65661D0060DF94 /* TopCategoryCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCategoryCollectionCell.swift; sourceTree = "<group>"; };
+		3699182F2B656C590060DF94 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		369918322B65701A0060DF94 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		369918372B6627570060DF94 /* ShoeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeModel.swift; sourceTree = "<group>"; };
+		3699183D2B6627F60060DF94 /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
+		3699183F2B6629A60060DF94 /* shoeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shoeData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369918452B6633190060DF94 /* SDWebImageMapKit in Frameworks */,
+				369918432B6633190060DF94 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +76,60 @@
 			children = (
 				369918172B6561CB0060DF94 /* AppDelegate.swift */,
 				369918192B6561CB0060DF94 /* SceneDelegate.swift */,
-				3699181B2B6561CB0060DF94 /* ViewController.swift */,
+				3699183A2B6627A70060DF94 /* Stubs */,
+				369918312B656C630060DF94 /* Extensions */,
+				369918392B6627A00060DF94 /* Model */,
+				3699183C2B6627CA0060DF94 /* Home */,
 				3699181D2B6561CB0060DF94 /* Main.storyboard */,
 				369918202B6561D20060DF94 /* Assets.xcassets */,
 				369918222B6561D20060DF94 /* LaunchScreen.storyboard */,
 				369918252B6561D20060DF94 /* Info.plist */,
 			);
 			path = WalkInStyle;
+			sourceTree = "<group>";
+		};
+		369918312B656C630060DF94 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3699182F2B656C590060DF94 /* UIColor+Extensions.swift */,
+				3699182B2B6565170060DF94 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		369918392B6627A00060DF94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				369918372B6627570060DF94 /* ShoeModel.swift */,
+				3699183D2B6627F60060DF94 /* JSONLoader.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3699183A2B6627A70060DF94 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				3699183F2B6629A60060DF94 /* shoeData.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		3699183B2B6627B50060DF94 /* HomeCollectionCells */ = {
+			isa = PBXGroup;
+			children = (
+				3699182D2B65661D0060DF94 /* TopCategoryCollectionCell.swift */,
+				369918322B65701A0060DF94 /* ItemCollectionViewCell.swift */,
+			);
+			path = HomeCollectionCells;
+			sourceTree = "<group>";
+		};
+		3699183C2B6627CA0060DF94 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3699181B2B6561CB0060DF94 /* HomeViewController.swift */,
+				3699183B2B6627B50060DF94 /* HomeCollectionCells */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +148,10 @@
 			dependencies = (
 			);
 			name = WalkInStyle;
+			packageProductDependencies = (
+				369918422B6633190060DF94 /* SDWebImage */,
+				369918442B6633190060DF94 /* SDWebImageMapKit */,
+			);
 			productName = WalkInStyle;
 			productReference = 369918142B6561CB0060DF94 /* WalkInStyle.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +180,9 @@
 				Base,
 			);
 			mainGroup = 3699180B2B6561CB0060DF94;
+			packageReferences = (
+				369918412B6633190060DF94 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 369918152B6561CB0060DF94 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +199,7 @@
 			files = (
 				369918242B6561D20060DF94 /* LaunchScreen.storyboard in Resources */,
 				369918212B6561D20060DF94 /* Assets.xcassets in Resources */,
+				369918402B6629A60060DF94 /* shoeData.json in Resources */,
 				3699181F2B6561CB0060DF94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +211,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3699181C2B6561CB0060DF94 /* ViewController.swift in Sources */,
+				3699181C2B6561CB0060DF94 /* HomeViewController.swift in Sources */,
+				369918302B656C590060DF94 /* UIColor+Extensions.swift in Sources */,
+				3699183E2B6627F60060DF94 /* JSONLoader.swift in Sources */,
+				369918382B6627570060DF94 /* ShoeModel.swift in Sources */,
 				369918182B6561CB0060DF94 /* AppDelegate.swift in Sources */,
+				3699182C2B6565170060DF94 /* UIView+Extensions.swift in Sources */,
 				3699181A2B6561CB0060DF94 /* SceneDelegate.swift in Sources */,
+				369918332B65701A0060DF94 /* ItemCollectionViewCell.swift in Sources */,
+				3699182E2B65661D0060DF94 /* TopCategoryCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +442,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		369918412B6633190060DF94 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.18.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		369918422B6633190060DF94 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 369918412B6633190060DF94 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		369918442B6633190060DF94 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 369918412B6633190060DF94 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3699180C2B6561CB0060DF94 /* Project object */;
 }
