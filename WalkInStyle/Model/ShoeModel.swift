@@ -7,24 +7,29 @@
 
 import Foundation
 
-struct Category: Codable {
-    let id: Int
-    let name: String
-    var isSelected: Bool
+class Category: Codable {
+    let id: Int?
+    let name: String?
+    var isSelected: Bool = false
 }
 
-struct Product: Codable {
-    let id: Int
-    let name: String
-    let brand: String
-    let rating: String
-    let price: String
-    let imageUrl: String?
-    var wishlist: Bool
+class Product: Codable {
+    var id: Int = 0
+    var name: String?
+    var brand: String?
+    var rating: String?
+    var price: String?
+    var imageUrl: String?
+    var wishlist: Bool = false
 }
 
-struct ShoeData: Codable {
+class ShoeData: Codable {
     let category: [Category]
     let product: [Product]
+    
+    init(category: [Category], product: [Product]) {
+        self.category = category
+        self.product = product
+    }
 }
 

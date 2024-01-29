@@ -28,11 +28,11 @@ class TopCategoryCollectionCell: UICollectionViewCell {
         return label
     }()
     
-    override var isSelected: Bool {
-        didSet {
-            updateColors()
-        }
-    }
+//    override var isSelected: Bool {
+//        didSet {
+//            updateColors()
+//        }
+//    }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -50,11 +50,13 @@ class TopCategoryCollectionCell: UICollectionViewCell {
         label.centerInSuperview()
     }
     
-    func configure(name: String) {
-        label.text = name
+    func configure(category: Category) {
+        label.text = category.name
+        self.isSelected = category.isSelected
+        updateColors()
     }
     
-    private func updateColors() {
+    func updateColors() {
         if isSelected {
             containerView.backgroundColor = UIColor(named: "BlueColor")
             label.textColor = .white

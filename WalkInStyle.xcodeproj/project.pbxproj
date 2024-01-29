@@ -22,6 +22,16 @@
 		369918402B6629A60060DF94 /* shoeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3699183F2B6629A60060DF94 /* shoeData.json */; };
 		369918432B6633190060DF94 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 369918422B6633190060DF94 /* SDWebImage */; };
 		369918452B6633190060DF94 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 369918442B6633190060DF94 /* SDWebImageMapKit */; };
+		369918472B663DF90060DF94 /* HomeSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369918462B663DF90060DF94 /* HomeSearchCell.swift */; };
+		369918492B663E080060DF94 /* HomeCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369918482B663E080060DF94 /* HomeCategoryCell.swift */; };
+		3699184B2B663E780060DF94 /* HomeProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699184A2B663E780060DF94 /* HomeProductCell.swift */; };
+		3699184E2B665E240060DF94 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699184D2B665E240060DF94 /* CustomTabBarViewController.swift */; };
+		369918502B665F780060DF94 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699184F2B665F780060DF94 /* TabBarView.swift */; };
+		369918522B667AD60060DF94 /* HomeHeadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369918512B667AD60060DF94 /* HomeHeadingCell.swift */; };
+		369918542B67EBAD0060DF94 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369918532B67EBAD0060DF94 /* ProfileViewController.swift */; };
+		369918582B67EC0B0060DF94 /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369918572B67EC0B0060DF94 /* WishlistViewController.swift */; };
+		3699185C2B67EC800060DF94 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699185B2B67EC800060DF94 /* FilterViewController.swift */; };
+		3699185E2B67EC920060DF94 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699185D2B67EC920060DF94 /* CartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +50,16 @@
 		369918372B6627570060DF94 /* ShoeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeModel.swift; sourceTree = "<group>"; };
 		3699183D2B6627F60060DF94 /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
 		3699183F2B6629A60060DF94 /* shoeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shoeData.json; sourceTree = "<group>"; };
+		369918462B663DF90060DF94 /* HomeSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchCell.swift; sourceTree = "<group>"; };
+		369918482B663E080060DF94 /* HomeCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryCell.swift; sourceTree = "<group>"; };
+		3699184A2B663E780060DF94 /* HomeProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProductCell.swift; sourceTree = "<group>"; };
+		3699184D2B665E240060DF94 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		3699184F2B665F780060DF94 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		369918512B667AD60060DF94 /* HomeHeadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeadingCell.swift; sourceTree = "<group>"; };
+		369918532B67EBAD0060DF94 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		369918572B67EC0B0060DF94 /* WishlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistViewController.swift; sourceTree = "<group>"; };
+		3699185B2B67EC800060DF94 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		3699185D2B67EC920060DF94 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +99,15 @@
 				3699183A2B6627A70060DF94 /* Stubs */,
 				369918312B656C630060DF94 /* Extensions */,
 				369918392B6627A00060DF94 /* Model */,
+				369918562B67EBF30060DF94 /* Wishlist */,
+				369918552B67EBC40060DF94 /* Profile */,
 				3699183C2B6627CA0060DF94 /* Home */,
+				3699185A2B67EC2B0060DF94 /* Filter */,
+				369918592B67EC1C0060DF94 /* Cart */,
+				3699184C2B665DED0060DF94 /* TabBarController */,
 				3699181D2B6561CB0060DF94 /* Main.storyboard */,
-				369918202B6561D20060DF94 /* Assets.xcassets */,
 				369918222B6561D20060DF94 /* LaunchScreen.storyboard */,
+				369918202B6561D20060DF94 /* Assets.xcassets */,
 				369918252B6561D20060DF94 /* Info.plist */,
 			);
 			path = WalkInStyle;
@@ -114,22 +139,67 @@
 			path = Stubs;
 			sourceTree = "<group>";
 		};
-		3699183B2B6627B50060DF94 /* HomeCollectionCells */ = {
+		3699183B2B6627B50060DF94 /* innerCells */ = {
 			isa = PBXGroup;
 			children = (
 				3699182D2B65661D0060DF94 /* TopCategoryCollectionCell.swift */,
 				369918322B65701A0060DF94 /* ItemCollectionViewCell.swift */,
 			);
-			path = HomeCollectionCells;
+			path = innerCells;
 			sourceTree = "<group>";
 		};
 		3699183C2B6627CA0060DF94 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				3699181B2B6561CB0060DF94 /* HomeViewController.swift */,
-				3699183B2B6627B50060DF94 /* HomeCollectionCells */,
+				369918512B667AD60060DF94 /* HomeHeadingCell.swift */,
+				369918462B663DF90060DF94 /* HomeSearchCell.swift */,
+				369918482B663E080060DF94 /* HomeCategoryCell.swift */,
+				3699184A2B663E780060DF94 /* HomeProductCell.swift */,
+				3699183B2B6627B50060DF94 /* innerCells */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		3699184C2B665DED0060DF94 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				3699184D2B665E240060DF94 /* CustomTabBarViewController.swift */,
+				3699184F2B665F780060DF94 /* TabBarView.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		369918552B67EBC40060DF94 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				369918532B67EBAD0060DF94 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		369918562B67EBF30060DF94 /* Wishlist */ = {
+			isa = PBXGroup;
+			children = (
+				369918572B67EC0B0060DF94 /* WishlistViewController.swift */,
+			);
+			path = Wishlist;
+			sourceTree = "<group>";
+		};
+		369918592B67EC1C0060DF94 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				3699185D2B67EC920060DF94 /* CartViewController.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		3699185A2B67EC2B0060DF94 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				3699185B2B67EC800060DF94 /* FilterViewController.swift */,
+			);
+			path = Filter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,14 +282,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				3699181C2B6561CB0060DF94 /* HomeViewController.swift in Sources */,
+				369918472B663DF90060DF94 /* HomeSearchCell.swift in Sources */,
+				369918502B665F780060DF94 /* TabBarView.swift in Sources */,
 				369918302B656C590060DF94 /* UIColor+Extensions.swift in Sources */,
+				369918582B67EC0B0060DF94 /* WishlistViewController.swift in Sources */,
 				3699183E2B6627F60060DF94 /* JSONLoader.swift in Sources */,
 				369918382B6627570060DF94 /* ShoeModel.swift in Sources */,
+				369918542B67EBAD0060DF94 /* ProfileViewController.swift in Sources */,
 				369918182B6561CB0060DF94 /* AppDelegate.swift in Sources */,
+				3699185E2B67EC920060DF94 /* CartViewController.swift in Sources */,
 				3699182C2B6565170060DF94 /* UIView+Extensions.swift in Sources */,
 				3699181A2B6561CB0060DF94 /* SceneDelegate.swift in Sources */,
+				369918522B667AD60060DF94 /* HomeHeadingCell.swift in Sources */,
+				3699185C2B67EC800060DF94 /* FilterViewController.swift in Sources */,
 				369918332B65701A0060DF94 /* ItemCollectionViewCell.swift in Sources */,
+				3699184B2B663E780060DF94 /* HomeProductCell.swift in Sources */,
 				3699182E2B65661D0060DF94 /* TopCategoryCollectionCell.swift in Sources */,
+				369918492B663E080060DF94 /* HomeCategoryCell.swift in Sources */,
+				3699184E2B665E240060DF94 /* CustomTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

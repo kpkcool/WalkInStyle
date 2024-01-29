@@ -3,4 +3,86 @@
    uuid = "AF24FDC7-7B54-4B0D-883B-ADF7E3FC233D"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F577B777-35D3-45C8-99E3-CE6423C91267"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WalkInStyle/Home/innerCells/TopCategoryCollectionCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "updateColors()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F577B777-35D3-45C8-99E3-CE6423C91267 - 85b960a4a4cd5c76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WalkInStyle.TopCategoryCollectionCell.updateColors() -&gt; ()"
+                  moduleName = "WalkInStyle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kpraveenkumar/Desktop/Work/WalkInStyle/WalkInStyle/Home/innerCells/TopCategoryCollectionCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "F577B777-35D3-45C8-99E3-CE6423C91267 - 85b960a4a4cd5c76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WalkInStyle.TopCategoryCollectionCell.updateColors() -&gt; ()"
+                  moduleName = "WalkInStyle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kpraveenkumar/Desktop/Work/WalkInStyle/WalkInStyle/Home/innerCells/TopCategoryCollectionCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63792C3E-DC9D-4630-9B2E-C2191D652B6F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WalkInStyle/Home/innerCells/TopCategoryCollectionCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "updateColors()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A90A179-74FC-4167-BA31-9E51D424F2DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WalkInStyle/Home/innerCells/TopCategoryCollectionCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "TopCategoryCollectionCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
