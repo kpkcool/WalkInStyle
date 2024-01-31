@@ -1,20 +1,18 @@
 //
-//  itemCollectionViewCell.swift
+//  WishlistCell.swift
 //  WalkInStyle
 //
-//  Created by K Praveen Kumar on 27/01/24.
+//  Created by K Praveen Kumar on 31/01/24.
 //
 
 import UIKit
-import SDWebImage
 
-class ItemCollectionViewCell: UICollectionViewCell {
+class WishlistCell: UICollectionViewCell {
     
     private lazy var containerView: UIView = {
         let view = UIView()
         view.addCornerRadius(radius: 12)
         view.addShadow(color: UIColor.lightGray, opacity: 0.2, radius: 4, offset: CGSize(width: 2, height: 4))
-        // view.addBorder(width: 1, color: UIColor(hex: "#fdfdff"))
         view.backgroundColor = .white
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
@@ -22,8 +20,6 @@ class ItemCollectionViewCell: UICollectionViewCell {
     
     private lazy var productName: UILabel = {
         let label = UILabel()
-        // label.font = UIFont(name: "SanFrancisco", size: 14)
-        // label.font = UIFont(name: "Montserrat-Regular", size: 14)
         label.font = UIFont.systemFont(ofSize: 15, weight: .semibold)
         label.textColor = UIColor(hex: "#333368")
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -129,17 +125,5 @@ class ItemCollectionViewCell: UICollectionViewCell {
         } else {
             containerView.backgroundColor = .white
         }
-    }
-}
-
-
-extension UIImageView {
-    func loadImage(from urlString: String?, placeholder: UIImage? = nil) {
-        guard let urlString = urlString, let url = URL(string: urlString) else {
-            self.image = placeholder
-            return
-        }
-
-        self.sd_setImage(with: url, placeholderImage: placeholder)
     }
 }

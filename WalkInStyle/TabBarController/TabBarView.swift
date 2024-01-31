@@ -35,7 +35,7 @@ class TabBarView: UITabBar {
             let pathAnimation = CABasicAnimation(keyPath: "path")
             pathAnimation.fromValue = oldShapeLayer.path
             pathAnimation.toValue = shapeLayer.path
-            pathAnimation.duration = 0.2
+            pathAnimation.duration = 0.15
             
             shapeLayer.add(pathAnimation, forKey: "pathAnimation")
             self.layer.replaceSublayer(oldShapeLayer, with: shapeLayer)
