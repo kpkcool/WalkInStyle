@@ -42,6 +42,9 @@ class ItemCollectionViewCell: UICollectionViewCell {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "not_wishlist")
         imageView.contentMode = .scaleAspectFit
+        imageView.isUserInteractionEnabled = true
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(wishlistTapped))
+        imageView.addGestureRecognizer(tapGesture)
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
@@ -130,5 +133,42 @@ class ItemCollectionViewCell: UICollectionViewCell {
             containerView.backgroundColor = .white
         }
     }
+    
+    
+    @objc func wishlistTapped() {
+        print("wishlistTapped")
+
+        // Define the scale values for the animation
+        let scaleDown: CGFloat = 0.8
+        let scaleUp: CGFloat = 1.2
+
+        // Create a scale-down animation
+        let scaleDownAnimation = CABasicAnimation(keyPath: "transform.scale")
+        scaleDownAnimation.fromValue = NSNumber(value: 1.0)
+        scaleDownAnimation.toValue = NSNumber(value: Float(scaleDown))
+        scaleDownAnimation.duration = 0.15
+        scaleDownAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
+
+        // Create a scale-up animation
+        let scaleUpAnimation = CABasicAnimation(keyPath: "transform.scale")
+        scaleUpAnimation.fromValue = NSNumber(value: Float(scaleDown))
+        scaleUpAnimation.toValue = NSNumber(value: Float(scaleUp))
+        scaleUpAnimation.duration = 0.15
+        scaleUpAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
+
+        // Combine the animations into a group
+        let animationGroup = CAAnimationGroup()
+        animationGroup.animations = [scaleDownAnimation, scaleUpAnimation]
+        animationGroup.duration = 0.3
+
+        // Apply the animation to the layer
+        wishlistImage.layer.add(animationGroup, forKey: "wishlistAnimation")
+
+        // Toggle the wishlist image
+        let newImage = (wishlistImage.image == UIImage(named: "not_wishlist")) ? UIImage(named: "wishlist") : UIImage(named: "not_wishlist")
+        wishlistImage.image = newImage
+    }
+
+
 }
 

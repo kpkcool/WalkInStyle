@@ -15,7 +15,19 @@ extension UIView {
     
     func addCornerRadius(radius: CGFloat) {
         layer.cornerRadius = radius
-        //layer.masksToBounds = true
+//        layer.masksToBounds = true
+    }
+    
+    func addCornerRadiusToSide(_ radius: CGFloat, onCorners corners: UIRectCorner) {
+        let path = UIBezierPath(roundedRect: bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
+        let maskLayer = CAShapeLayer()
+        maskLayer.path = path.cgPath
+        layer.mask = maskLayer
+        
+        // Add padding to the text to prevent it from being clipped
+        if let button = self as? UIButton {
+            button.titleEdgeInsets = UIEdgeInsets(top: 0, left: radius, bottom: 0, right: radius)
+        }
     }
     
     func addShadow(color: UIColor, opacity: Float, radius: CGFloat, offset: CGSize) {
